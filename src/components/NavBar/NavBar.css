@@ -1,0 +1,30 @@
+.NavBar {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  color: #fff;
+  margin-bottom: 0;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+.Title {
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.NavList {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5 15px;
+  font-size: 18px;
+}
+
+.NavItem {
+  list-style-type: none;
+  margin-left: 100px;
+}

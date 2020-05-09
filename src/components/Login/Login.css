@@ -1,0 +1,89 @@
+.Login {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 70px;
+  color: #fff;
+}
+
+.LoginContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.LoginLeft {
+  width: 40%;
+  padding: 0;
+  margin: 0;
+  margin-left: 10%;
+}
+
+.LoginRight {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.LoginRight svg {
+  height: 90%;
+  width: 90%;
+}
+
+.Title {
+  font-size: 72px;
+  margin-bottom: 50px;
+}
+
+.SubTitle {
+  font-size: 36px;
+}
+
+.LoginForm {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.Formspan {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Formspan label {
+  width: 25%;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.Formspan input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 25px;
+  width: 60%;
+}
+
+.LoginBtns {
+  width: 100%;
+  margin: auto;
+
+}
+
+.LoginBtns button {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 55px;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  margin: 20px 10px;
+}

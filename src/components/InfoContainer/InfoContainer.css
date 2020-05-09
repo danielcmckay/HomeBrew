@@ -1,0 +1,19 @@
+.InfoContainer {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(255, 244, 217, .5);
+  color: #222;
+  overflow: scroll;
+}
+
+.LocButton {
+  font-size: 1.5rem;
+  width: 175px;
+  display: block;
+  padding: 15px 25px;
+  border: none;
+  color: #222;
+  border-radius: 25px;
+  background: #F2F1F0;
+  margin: 25px auto;
+}

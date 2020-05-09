@@ -1,0 +1,10 @@
+.HomeBrew {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  padding: 0;
+  margin: 0;
+}

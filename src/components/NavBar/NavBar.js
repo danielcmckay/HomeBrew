@@ -1,17 +1,18 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './NavBar.css';
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <nav className="NavBar">
-      <h1 className="Title">HomeBrew</h1>
+      <h1 className="Title"><Link to='/'>HomeBrew</Link></h1>
       <ul className="NavList">
-        <li className="NavItem">Saved</li>
-        <li className="NavItem">Settings</li>
-        <li className="NavItem">Account</li>
+        <li className="NavItem"><Link to='/favorites'>Favorites</Link></li>
+        <li className="NavItem"><Link>Settings</Link></li>
+        <li className="NavItem" onClick={props.logout}>Logout</li>
       </ul>
     </nav>
   )
 }
 
-export default NavBar
+export default NavBar;

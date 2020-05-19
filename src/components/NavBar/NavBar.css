@@ -3,16 +3,30 @@
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 50px;
+  padding: 15px;
   color: #fff;
-  margin-bottom: 0;
   height: 50px;
-  border: 1px solid #fff;
+  width: 90%;
+  margin: auto;
 }
 
-.Title {
-  font-size: 12px;
-  margin-top: 25px;
+.NavBar a {
+  color: white;
+}
+
+.NavBar a:hover {
+  color: #333;
+  transition: all ease-in-out .4s;
+}
+
+.NavBar .Title {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.NavBar .Title:hover, .NavItem:hover {
+  color: #333;
+  transition: all ease-in-out .4s;
 }
 
 .NavList {
@@ -27,4 +41,12 @@
 .NavItem {
   list-style-type: none;
   margin-left: 100px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .NavBar {
+    width: 100%;
+    height: 100px;
+  }
 }

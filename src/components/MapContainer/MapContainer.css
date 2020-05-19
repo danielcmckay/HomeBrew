@@ -1,7 +1,7 @@
 .MapContainer {
   width: 75vw;
   height: 90vh;
+  margin-bottom: 0;
   background-color: #999;
   color: #222;
-  margin-left: 25px;
 }

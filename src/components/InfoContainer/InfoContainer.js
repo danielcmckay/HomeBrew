@@ -6,16 +6,19 @@ import SearchForm from '../SearchForm/SearchForm';
 import BreweryItem from '../BreweryItem/BreweryItem'
 
 const InfoContainer = (props) => {
+  const [locationSearch, setLocationSearch] = useState("");
   
 
   const getLocHandler = (e) => {
     props.getBrews()
   }
 
+
+
   return (
     <div className='InfoContainer'>
       <button className="LocButton" onClick={getLocHandler}>Find Me!</button>
-      <SearchForm />
+      <SearchForm searchLoc={props.searchLoc}/>
       {props.breweries.map(brew => <BreweryItem name={brew.name} rating={brew.rating} address={brew.address} key={uuid()}/>)}
     </div>
   )
